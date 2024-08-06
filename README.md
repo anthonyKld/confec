@@ -1,66 +1,90 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Material Dashboard Lite
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Welcome to first dark dashboard on the Material Design Lite!
 
-## About Laravel
+<a target="_blank" href="http://material-dashboard-lite.creativeit.io"><img src="https://trello-attachments.s3.amazonaws.com/56af74f7f1b5b81a201453c4/2000x1105/796e1dae05e88ba87162dd8bbf188e65/Darkboard_Showcase_1_3.png"/></a>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Its much more fun with the [demo](http://material-dashboard-lite.creativeit.io).
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Material admin template is absolutely free for commercial usage theme, that uses google's implementation of material design — [Material Design Lite](http://www.getmdl.io) library. It doesn’t rely on any JavaScript frameworks and aims to be responsive and optimized for cross-device usage. All components are created with CSS (scss), JavaScript (es6), and HTML5.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+>**Important**: We are still working on the project and there will be much more awesome, check out our [issues](https://github.com/CreativeIT/material-dashboard-lite/issues) to see what features are coming soon.
 
-## Learning Laravel
+# SETUP and USAGE
+The steps bellow will take you through cloning your own fork, installing dependencies and building:
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+1. Fork and/or clone our repository. To use Git from command line, see the [Setting up Git](https://help.github.com/articles/set-up-git/) and [Fork a repo](https://help.github.com/articles/fork-a-repo/) articles. 
+  
+  ```
+    git clone https://github.com/CreativeIT/material-dashboard-lite.git
+  ```
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+2. Open your copied repo folder in terminal and install [npm](https://www.npmjs.com/) components with command:
+  
+  ```
+    cd material-dashboard-lite
+    npm install
+  ```
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+3. Install [bower](http://bower.io/) components with command:
+  
+  ```
+    bower install
+  ```
 
-## Laravel Sponsors
+4. Now you are able to build project with [gulp](http://gulpjs.com/):
+  
+  ```
+    gulp build
+  ```
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+5. To see the result use command:
+  
+  ```
+    gulp serve
+  ```
 
-### Premium Partners
+# FEATURES
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+*  [Material Design](http://www.google.com/design/spec/material-design/introduction.html) via [Material Design Lite](http://getmdl.io)
 
-## Contributing
+*  Ecmascript 6 (with [babel](https://babeljs.io/))
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+*  Responsive dark material design. DARK, Carl!
 
-## Code of Conduct
+*  User experience focused
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+*  [Sass](http://sass-lang.com/)
 
-## Security Vulnerabilities
+*  [Gulp](http://gulpjs.com/) build
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+*  [D3](https://d3js.org/) and [NVD3](http://nvd3.org/)
 
-## License
+*  MIT License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+# Additional
+
+Since the project uses [BEM](http://getbem.com) structure with sass, it can be customized in easy way by editing `src/variables.scss` file. To take effect you must run `gulp build` in terminal again. Also you may want to use `gulp watch`, that will run default command every time you modify any file in source folder. You can use `gulp default`if you don't want to minify js-files.
+
+Google hasn't implemented select element yet ([see why here](http://37.media.tumblr.com/6a9fcffde2da977266b0ea99b15d5803/tumblr_n42cjjsriB1smcbm7o1_400.gif)), that is why the project depends on [getmdl-select plugin](https://github.com/CreativeIT/getmdl-select). Also project uses [d3](https://d3js.org/) and [nvd3](http://nvd3.org/) to build charts and chart components.
+
+
+# Hire us
+We are ready to bring value to your business. Visit our site [creativeit.io](http://creativeit.io/) or drop us a line <hello@creativeit.io>. We will be happy to help you!
+
+
+# Credits
+
+UI components built with [Material Design Lite](http://www.getmdl.io).
+
+Designed with passion and coffee by CreativeIT
+
+# Support the project
+
+* Star the repo
+
+* Create issue report or feature request
+
+* [Tweet about it](https://twitter.com/intent/tweet?text=Wow!%20New%20%23free%20dark%20%23dashboard%20on%20%23MaterialDesignLite!%0Ahttp://creativeit.github.io/material-dashboard-lite/index.html%0A&via=CreativeITeam&hashtags=materialDesign,responsive,UI,JS)
+
+* Follow [us on Twitter](https://twitter.com/intent/follow?screen_name=CreativeITeam)
