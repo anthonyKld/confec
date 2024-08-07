@@ -1,9 +1,11 @@
 <?php
 
 $id = 5;
+$username = "u953711579_user";
+$password = "Personal_2@2@";
 try {
-  $conn = new PDO('mysql:host=localhost;dbname=meuBancoDeDados', $username, $password);
-  $stmt = $conn->prepare('SELECT * FROM minhaTabela WHERE id = :id');
+  $conn = new PDO('mysql:host=localhost;dbname=u953711579_database', $username, $password);
+  $stmt = $conn->prepare('SELECT * FROM Tabela WHERE id = 1');
   $stmt->execute(array('id' => $id));
 
   $result = $stmt->fetchAll();
@@ -18,5 +20,4 @@ try {
 } catch(PDOException $e) {
     echo 'ERROR: ' . $e->getMessage();
 }
-
- ?>
+?>
