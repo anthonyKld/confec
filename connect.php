@@ -5,7 +5,7 @@ $username = "u953711579_user";
 $password = "Personal_2@2@";
 try {
   $conn = new PDO('mysql:host=localhost;dbname=u953711579_database', $username, $password);
-  $stmt = $conn->prepare('SELECT * FROM Tabela WHERE id = 1');
+  $stmt = $conn->prepare('SELECT * FROM Tabela');
   $stmt->execute(array('id' => $id));
 
   $result = $stmt->fetchAll();
