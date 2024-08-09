@@ -81,7 +81,7 @@ $conn->close();
                                 </button>
                             </div>
                         </form>
-                        <?php if (isset($erro)) { echo "<p style='color:red;'>$erro</p>"; } ?>
+                        <?php if (isset($_SESSION['erro'])) { echo "<p style='color:red;'>$_SESSION['erro']</p>"; } ?>
                     </div>
                 </div>
             </div>
