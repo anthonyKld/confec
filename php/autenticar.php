@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if ($result->num_rows > 0) {
         // Autenticação bem-sucedida
-        $_SESSION['usuario'] = $email;
+        $_SESSION['email'] = $email;
         $_SESSION['nomeUsuario'] = $dados['nome'];
         header("Location: ./"); // Redireciona para a página principal após o login
         exit(); // Certifique-se de que o script pare de executar após o redirecionamento
