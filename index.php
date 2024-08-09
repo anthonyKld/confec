@@ -275,6 +275,96 @@ $conn->close();
                         <div class="sub-navigation">
                             <a class="mdl-navigation__link">
                                 <i class="material-icons">view_comfy</i>
+                                Chaves de acesso
+                                <i class="material-icons">keyboard_arrow_down</i>
+                            </a>
+                            <div class="mdl-navigation">
+                                <a class="mdl-navigation__link" href="ui-buttons.html">
+                                    Buttons
+                                </a>
+                                <a class="mdl-navigation__link" href="ui-cards.html">
+                                    Cards
+                                </a>
+                                <a class="mdl-navigation__link" href="ui-colors.html">
+                                    Colors
+                                </a>
+                                <a class="mdl-navigation__link" href="ui-form-components.html">
+                                    Forms
+                                </a>
+                                <a class="mdl-navigation__link" href="ui-icons.html">
+                                    Icons
+                                </a>
+                                <a class="mdl-navigation__link" href="ui-typography.html">
+                                    Typography
+                                </a>
+                                <a class="mdl-navigation__link" href="ui-tables.html">
+                                    Tables
+                                </a>
+                            </div>
+                        </div>
+                        <div class="sub-navigation">
+                            <a class="mdl-navigation__link">
+                                <i class="material-icons">view_comfy</i>
+                                Usuários
+                                <i class="material-icons">keyboard_arrow_down</i>
+                            </a>
+                            <div class="mdl-navigation">
+                                <a class="mdl-navigation__link" href="ui-buttons.html">
+                                    Buttons
+                                </a>
+                                <a class="mdl-navigation__link" href="ui-cards.html">
+                                    Cards
+                                </a>
+                                <a class="mdl-navigation__link" href="ui-colors.html">
+                                    Colors
+                                </a>
+                                <a class="mdl-navigation__link" href="ui-form-components.html">
+                                    Forms
+                                </a>
+                                <a class="mdl-navigation__link" href="ui-icons.html">
+                                    Icons
+                                </a>
+                                <a class="mdl-navigation__link" href="ui-typography.html">
+                                    Typography
+                                </a>
+                                <a class="mdl-navigation__link" href="ui-tables.html">
+                                    Tables
+                                </a>
+                            </div>
+                        </div>
+                        <div class="sub-navigation">
+                            <a class="mdl-navigation__link">
+                                <i class="material-icons">view_comfy</i>
+                                Produtos
+                                <i class="material-icons">keyboard_arrow_down</i>
+                            </a>
+                            <div class="mdl-navigation">
+                                <a class="mdl-navigation__link" href="ui-buttons.html">
+                                    Buttons
+                                </a>
+                                <a class="mdl-navigation__link" href="ui-cards.html">
+                                    Cards
+                                </a>
+                                <a class="mdl-navigation__link" href="ui-colors.html">
+                                    Colors
+                                </a>
+                                <a class="mdl-navigation__link" href="ui-form-components.html">
+                                    Forms
+                                </a>
+                                <a class="mdl-navigation__link" href="ui-icons.html">
+                                    Icons
+                                </a>
+                                <a class="mdl-navigation__link" href="ui-typography.html">
+                                    Typography
+                                </a>
+                                <a class="mdl-navigation__link" href="ui-tables.html">
+                                    Tables
+                                </a>
+                            </div>
+                        </div>
+                        <div class="sub-navigation">
+                            <a class="mdl-navigation__link">
+                                <i class="material-icons">view_comfy</i>
                                 UI
                                 <i class="material-icons">keyboard_arrow_down</i>
                             </a>
