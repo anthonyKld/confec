@@ -207,7 +207,7 @@ $conn->close();
             </ul>
 
             <div class="avatar-dropdown" id="icon">
-                <span><? echo ($_SESSION['nomeUsuario']); ?></span>
+                <span><?php echo ($_SESSION['nomeUsuario']); ?></span>
                 <img src="images/Icon_header.png">
             </div>
             <!-- Account dropdawn-->
@@ -216,7 +216,7 @@ $conn->close();
                 <li class="mdl-list__item mdl-list__item--two-line">
                     <span class="mdl-list__item-primary-content">
                         <span class="material-icons mdl-list__item-avatar"></span>
-                        <span>Luke</span>
+                        <span><?php echo ($_SESSION['nomeUsuario']); ?></span>
                         <span class="mdl-list__item-sub-title">Luke@skywalker.com</span>
                     </span>
                 </li>
