@@ -207,7 +207,7 @@ $conn->close();
             </ul>
 
             <div class="avatar-dropdown" id="icon">
-                <span>Luke 2</span>
+                <span><? echo ($_SESSION['nomeUsuario']); ?></span>
                 <img src="images/Icon_header.png">
             </div>
             <!-- Account dropdawn-->

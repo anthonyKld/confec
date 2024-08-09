@@ -24,8 +24,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } else {
         // Autenticação falhou
         $_SESSION['erro'] = "E-mail ou senha incorretos.";
-        //header("Location: ./login.php");
-        //exit();
+        header("Location: ./login.php");
+        exit();
     }
 
     $stmt->close();
