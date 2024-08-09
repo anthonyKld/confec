@@ -19,13 +19,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $_SESSION['usuario'] = $email;
         $_SESSION['nome'] = $email;
         print_r ($result);
-        header("Location: ./"); // Redireciona para a página principal após o login
-        exit(); // Certifique-se de que o script pare de executar após o redirecionamento
+        //header("Location: ./"); // Redireciona para a página principal após o login
+        //exit(); // Certifique-se de que o script pare de executar após o redirecionamento
     } else {
         // Autenticação falhou
         $_SESSION['erro'] = "E-mail ou senha incorretos.";
         //header("Location: ./login.php");
-        exit();
+        //exit();
     }
 
     $stmt->close();
