@@ -301,21 +301,6 @@ $conn->close();
                                 <a class="mdl-navigation__link" href="ui-cards.html">
                                     Cards
                                 </a>
-                                <a class="mdl-navigation__link" href="ui-colors.html">
-                                    Colors
-                                </a>
-                                <a class="mdl-navigation__link" href="ui-form-components.html">
-                                    Forms
-                                </a>
-                                <a class="mdl-navigation__link" href="ui-icons.html">
-                                    Icons
-                                </a>
-                                <a class="mdl-navigation__link" href="ui-typography.html">
-                                    Typography
-                                </a>
-                                <a class="mdl-navigation__link" href="ui-tables.html">
-                                    Tables
-                                </a>
                             </div>
                         </div>
 
