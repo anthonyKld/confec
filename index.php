@@ -272,39 +272,25 @@ $conn->close();
                             <i class="material-icons" role="presentation">dashboard</i>
                             Dashboard
                         </a>
+
+                        <!-- CHAVE DE ACESSOS -->
                         <div class="sub-navigation">
                             <a class="mdl-navigation__link">
-                                <i class="material-icons">view_comfy</i>
+                                <i class="material-icons">vpn_key</i>
                                 Chaves de acesso
                                 <i class="material-icons">keyboard_arrow_down</i>
                             </a>
                             <div class="mdl-navigation">
-                                <a class="mdl-navigation__link" href="ui-buttons.html">
-                                    Buttons
-                                </a>
-                                <a class="mdl-navigation__link" href="ui-cards.html">
-                                    Cards
-                                </a>
-                                <a class="mdl-navigation__link" href="ui-colors.html">
-                                    Colors
-                                </a>
-                                <a class="mdl-navigation__link" href="ui-form-components.html">
-                                    Forms
-                                </a>
-                                <a class="mdl-navigation__link" href="ui-icons.html">
-                                    Icons
-                                </a>
-                                <a class="mdl-navigation__link" href="ui-typography.html">
-                                    Typography
-                                </a>
                                 <a class="mdl-navigation__link" href="ui-tables.html">
                                     Tables
                                 </a>
                             </div>
                         </div>
+
+                        <!-- USUARIOS -->
                         <div class="sub-navigation">
                             <a class="mdl-navigation__link">
-                                <i class="material-icons">view_comfy</i>
+                                <i class="material-icons">account_circle</i>
                                 Usuários
                                 <i class="material-icons">keyboard_arrow_down</i>
                             </a>
@@ -332,33 +318,23 @@ $conn->close();
                                 </a>
                             </div>
                         </div>
+
+                        <!-- PRODUTOS -->
                         <div class="sub-navigation">
                             <a class="mdl-navigation__link">
-                                <i class="material-icons">view_comfy</i>
+                                <i class="material-icons">shopping_cart</i>
                                 Produtos
                                 <i class="material-icons">keyboard_arrow_down</i>
                             </a>
                             <div class="mdl-navigation">
-                                <a class="mdl-navigation__link" href="ui-buttons.html">
-                                    Buttons
-                                </a>
-                                <a class="mdl-navigation__link" href="ui-cards.html">
-                                    Cards
-                                </a>
-                                <a class="mdl-navigation__link" href="ui-colors.html">
-                                    Colors
-                                </a>
-                                <a class="mdl-navigation__link" href="ui-form-components.html">
-                                    Forms
-                                </a>
-                                <a class="mdl-navigation__link" href="ui-icons.html">
-                                    Icons
-                                </a>
-                                <a class="mdl-navigation__link" href="ui-typography.html">
-                                    Typography
+                                <a class="mdl-navigation__link" href="ui-tables.html">
+                                    Editar produtos
                                 </a>
                                 <a class="mdl-navigation__link" href="ui-tables.html">
-                                    Tables
+                                    Alterar imagens
+                                </a>
+                                <a class="mdl-navigation__link" href="ui-tables.html">
+                                    Adcionar
                                 </a>
                             </div>
                         </div>
