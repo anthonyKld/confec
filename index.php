@@ -337,6 +337,9 @@ $conn->close();
                                 <a class="mdl-navigation__link" href="404.html">
                                     404
                                 </a>
+                                <a class="mdl-navigation__link" href="keys.php">
+                                    Chaves de acesso
+                                </a>
                             </div>
                         </div>
                         <div class="mdl-layout-spacer"></div>
