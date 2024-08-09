@@ -217,7 +217,7 @@ $conn->close();
                     <span class="mdl-list__item-primary-content">
                         <span class="material-icons mdl-list__item-avatar"></span>
                         <span><?php echo ($_SESSION['nomeUsuario']); ?></span>
-                        <span class="mdl-list__item-sub-title"><?php echo ($_SESSION['email']); ?></span>
+                        <span class="mdl-list__item-sub-title"><?php echo ($_SESSION['usuario']); ?></span>
                     </span>
                 </li>
                 <li class="list__item--border-top"></li>
@@ -491,7 +491,7 @@ $conn->close();
                                 <span class="label label--mini background-color--primary">Dina</span>
                                 <span class="label label--mini color--orange">Misha</span>
                             </td>
-                            <td class="mdl-data-table__cell--non-numeric"><?php echo ($_SESSION['email']); ?></td>
+                            <td class="mdl-data-table__cell--non-numeric"><?php echo ($_SESSION['usuario']); ?></td>
                             <td class="mdl-data-table__cell--non-numeric">Jun 15</td>
                             <td class="mdl-data-table__cell--non-numeric">
                                 <div id="task1" class="mdl-progress mdl-js-progress"></div>
